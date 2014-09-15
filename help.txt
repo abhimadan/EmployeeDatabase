@@ -1,0 +1,49 @@
+---------------------------------------Overview----------------------------------------------------------------------------
+  The menu bar, located at the top of the window, is split into 3 headings: File, Edit, and Help. 
+The File heading containsa Save command and an Exit command; the Edit heading contains an Add 
+Employee command and a Search command; and the Help heading contains a Help command and the About 
+command. All usage of the database is centred around this menu, as well as the search bar.
+
+Add Employee---------------------------------------------------------------------------------------------------------------
+  When this option is selected, it will show a pane with two tabs (see screenshot in full user 
+guide). There are two separate forms: one for creating a new part time employee, and one for 
+creating a new full time employee, each of which can be accessed through the tabs called 'New Part 
+Time Employee' and 'New Full Time Employee'.
+  By hovering the mouse over certain fields, it will give instructions on what kind of 
+information must be entered into them. For example, the Deductions Rate field must be a percentage
+value between 0 and 100. Any of the arrow buttons beside field boxes can be used to adjust the 
+numerical value of the fields they are attached to, or a value following the specifications can 
+be typed into the box directly. Note: the Generated ID (the employee number) is randomly generated; 
+it cannot be changed. If the Add button is clicked and there are any errors in the form, or some 
+fields are not filled out, they will be displayed beside the field box which sent the error. 
+These fields must be fixed to have appropriated data, after which a message will be displayed that
+the employee was successfully added. To clear out all the fields at once, press the Clear button.
+  The Add Full Time Employee form is filled out in the same manner, except that the Hourly Wage, 
+Hours Per Week, and Weeks Per Year fields are replaced by a single Annual Salary Field. 
+
+Search---------------------------------------------------------------------------------------------------------------------
+  This option in the menu bar is just a redirect to the search bar in the top right corner of the 
+screen. Type in an employee number into the system, and the database will display information for
+the employee with a matching employee number. The search bar only handles search by employee 
+number; any other form of searching is not supported. The database will display a message if the 
+employee was not found; otherwise, it will display the information in a panel. 
+  Any of the field boxes can be edited (except for Generated ID) with the same specifications as
+are required when creating an employee. To modify the employee with the changes, press the Update
+button. 
+  Viewing an employee also displays their gross annual pay (before deductions) and their net 
+annual pay (after deductions) at the bottom of the window. These cannot be edited directly, since
+they are calculations made by employee data.
+  An employee can also be deleted from the database by pressing the Delete button. They cannot be
+restored unless their information is entered in as a new employee, but their employee number will
+be different.
+
+Save-----------------------------------------------------------------------------------------------------------------------
+  When this option is selected, the employee information on the database is backed up to a file 
+called 'employees.txt'. Do NOT delete this file, or the database will not load when it is started up.
+
+Exit-----------------------------------------------------------------------------------------------------------------------
+  This option is an alternative to clicking the close button in the top right corner of the window.
+If either this Exit option or the close button is selected, the database automatically backs up.
+
+About----------------------------------------------------------------------------------------------------------------------
+  This option displays a brief background on the creation of this database.
